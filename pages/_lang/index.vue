@@ -1,19 +1,15 @@
 <template>
   <main>
     <div class="container">
-      <logo/>
+      <h1>
+        {{ $t("links.home") }}
+      </h1>
     </div>
   </main>
 </template>
 
 <script>
-  import Logo from '~/components/Logo.vue'
-
-  export default {
-    components: {
-      Logo
-    }
-  }
+  
 </script>
 
 <style>

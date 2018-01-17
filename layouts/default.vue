@@ -15,6 +15,7 @@
   }
 </script>
 
-<style>
-  
+<style lang="scss">
+  @import "../assets/styles/base/variables";
+  @import "../assets/styles/settings";
 </style>
