@@ -19,7 +19,7 @@
   </header>
 </template>
 
-<style>
+<style lang="scss">
   .site-header {}
 
   .main-nav {}
