@@ -16,7 +16,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: 'red' },
+  loading: { color: 'black' },
   /*
   ** Build configuration
   */
@@ -24,6 +24,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+    vendor: ['vue-i18n'],
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
@@ -34,5 +35,21 @@ module.exports = {
         })
       }
     }
+  },
+  /* 
+  ** Router 
+  */
+  router: {
+    middleware: 'i18n'
+  },
+  /* 
+  ** Plugins 
+  */
+  plugins: ['~/plugins/i18n.js'],
+  /*
+  ** Routes to generate
+  */
+  generate: {
+    routes: ['/', '/about', '/ua', '/ua/about']
   }
 }

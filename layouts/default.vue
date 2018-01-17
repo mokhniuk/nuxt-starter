@@ -1,8 +1,19 @@
 <template>
-  <div>
+  <main>
+    <site-header/>
     <nuxt/>
-  </div>
+  </main>
 </template>
+
+<script>
+  import SiteHeader from '~/components/SiteHeader.vue'
+
+  export default {
+    components: {
+      SiteHeader
+    }
+  }
+</script>
 
 <style>
   html {
@@ -19,5 +30,13 @@
   *, *:before, *:after {
     box-sizing: border-box;
     margin: 0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: content-box;
   }
 </style>
