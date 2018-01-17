@@ -11,3 +11,4 @@ npm-debug.log
 dist
 .editorconfig
 package-lock.json
+.DS_Store
