@@ -1,5 +1,5 @@
 <template>
-  <nav class="main-nav">
+  <nav class="main-nav" role="navigation">
     <ul class="main-nav__list">
       <li class="main-nav__list-item">
         <nuxt-link class="main-nav__link" :to="$i18n.path('')" exact>{{ $t('links.home') }}</nuxt-link>

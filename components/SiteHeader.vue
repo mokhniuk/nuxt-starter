@@ -29,7 +29,6 @@
     text-align: center;
   }
 
-  
   .site-logo {
     margin-bottom: 1em;
     width: 100%;

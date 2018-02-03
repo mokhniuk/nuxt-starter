@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main role="main">
     <site-header/>
     <nuxt/>
   </main>
