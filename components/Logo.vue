@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link to="/" class="site-logo">
+  <nuxt-link :to="$i18n.path('')" exact class="site-logo">
     Nuxt Starter
   </nuxt-link>
 </template>
